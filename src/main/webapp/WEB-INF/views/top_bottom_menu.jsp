@@ -10,7 +10,7 @@
         <a>로그인하기  <i class="fas fa-angle-right"></i></a>
         <a>회원가입</a>
     </div>
-    <div class="fixed_button_section">
+    <div class="fixed_button_section" style="z-index: 10">
         <ul>
             <li>
                 <a>

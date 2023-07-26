@@ -1,0 +1,24 @@
+#map{
+    z-index: 0;
+    position: relative;
+    height: 60vw;
+}
+
+.map_popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: rgba(255,255,255,0.2);
+    text-align: right;
+}
+
+.map_popup i{
+    position: absolute;
+    z-index: 9999;
+    font-size: 6vw;
+    padding: 0.2vw;
+    right: 0;
+}

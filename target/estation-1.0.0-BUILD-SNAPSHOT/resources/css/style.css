@@ -27,6 +27,7 @@ nav a{
 }
 
 .main_top_section{
+    z-index: 0;
     width: 100%;
     position: relative;
 
@@ -41,6 +42,7 @@ nav a{
 .main_top_section .main_top_link{
     position: relative;
     width: 90%;
+    z-index: 0;
     background-color: white;
     border: 1px solid #eee;
     border-radius: 10px;
@@ -88,6 +90,7 @@ nav a{
 .main_top_section .main_top_menu{
     padding: 10vw 0;
     width: 95%;
+    z-index: 0;
     position: relative;
 }
 
@@ -193,6 +196,7 @@ nav a{
 .fixed_menu{
     position: fixed;
     bottom: 0;
+    z-index: 3;
     width: 100%;
     box-shadow: 0px -0.5vw 10px 1px rgba(0, 0, 0, 0.2);
 
@@ -219,6 +223,7 @@ nav a{
 
 .fixed_button_section{
     width: 100%;
+    z-index: 5;
     background-color: white;
 
 }
@@ -279,6 +284,11 @@ nav a{
 .map_menu_section{
     width: 100%;
     background-color: rgb(250, 251, 255);
+}
+
+.map_menu_section h3{
+    font-size: 3.5vw;
+    padding: 2vw 0 0 2vw;
 }
 
 .charger_list li{
@@ -370,6 +380,11 @@ nav a{
     border-radius: 1vw;
 }
 
-.charger_list_filter select option{
-
+.charger_list_filter button{
+    margin-left: 4vw;
+    width: 20vw;
+    background-color: white;
+    border: #ccc solid 1px;
+    border-radius: 1vw;
+    font-size: 3vw;
 }
