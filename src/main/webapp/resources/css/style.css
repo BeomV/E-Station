@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+div{
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a{
+    font-size: 20px;
+}
+
+.main_top_section{
+    width: 100%;
+    position: relative;
+
+}
+
+.main_top_slide{
+    width: 100%;
+    height: 13vh;
+    background-color: #ccc;
+}
+
+.main_top_section .main_top_link{
+    position: relative;
+    width: 90%;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: -20px auto 0 auto;
+    box-shadow: 0 5px 15px 1vw rgba(0, 0, 0, 0.2);
+}
+
+.main_top_section .main_top_link div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main_top_section .main_top_link div:first-child{
+    padding: 4vw 0;
+}
+
+.main_top_section .main_top_link div:first-child h3{
+    font-size: 3.5vw;
+}
+
+.main_top_section .main_top_link div:last-child{
+    padding: 2vw 0px 6vw 0;
+}
+
+.main_top_section .main_top_link div ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_top_section .main_top_link div ul li a{
+    display: flex;
+    font-weight: 400;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+}
+
+.main_top_section .main_top_link div ul li a i{
+    padding-bottom: 2vw;
+    font-size: 6vw;
+}
+
+.main_top_section .main_top_menu{
+    padding: 10vw 0;
+    width: 95%;
+    position: relative;
+}
+
+.main_top_menu strong{
+    font-size: 4vw;
+
+}
+
+.main_top_menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_top_menu ul li{
+    margin-top: 3vw;
+    border: 1px #ccc solid;
+    border-radius: 4vw;
+    padding: 1vw 0;
+    width: 25vw;
+    text-align: center;
+}
+
+.main_top_menu ul li a {
+    font-size: 3.5vw;
+}
+
+.item_section{
+    background-color: #ececec;
+    padding: 2vw 0 16vw 0;
+}
+
+.item_section h3:first-child{
+    font-size: 4vw;
+    padding: 5vw 0 5vw 3vw;
+}
+
+.item_list_slide{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vw;
+    border-radius: 2vw;
+    background-color: white;
+    box-shadow: 0 5px 15px 1vw rgba(0, 0, 0, 0.2);
+}
+
+.recommend_menu{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d31f0;
+}
+
+.recommend_menu .recommend_menu_title{
+    width: 46vw;
+    color: white;
+    font-size: 3.5vw;
+}
+
+.recommend_menu a{
+    color: white;
+    border: white 1px solid;
+    padding: 2vw 0vw;
+    width: 37vw;
+    border-radius: 5vw;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.events_menu{
+    width: 100%;
+    padding-bottom: 35vw;
+}
+
+.events_menu h3{
+    font-size: 4vw;
+    padding: 5vw 0 0 2.5vw;
+}
+
+.events_menu ul{
+    display: grid;
+    padding: 6vw 0;
+    grid-gap: 2vw;
+    width: 95%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.events_menu ul li{
+    height: 60vw;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fae8ad;
+}
+
+
+.fixed_menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -0.5vw 10px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+.user_info_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 0;
+    background-color: #ccc;
+}
+
+.user_info_section a:first-child{
+    margin-left: 4vw;
+    font-size: 3vw;
+}
+
+.user_info_section a:last-child{
+    margin-right: 4vw;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+.fixed_button_section{
+    width: 100%;
+    background-color: white;
+
+}
+
+.fixed_button_section ul{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fixed_button_section ul li a{
+    display: flex;
+    font-weight: 300;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4vw 0;
+    font-size: 3.5vw;
+}
+
+.fixed_button_section ul li a i{
+    font-size: 5vw;
+    margin-bottom: 3vw;
+}
+
+.fixed_button_section_my{
+    background-color: #2d31f0;
+    color: white;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 6.5vw;
+}
+
+/* E-Station CSS */
+
+.top_menu_section{
+    width: 100%;
+    padding-bottom: 2vw;
+}
+
+.top_menu_section ul{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_menu_section ul li{
+    padding-bottom: 1vw;
+}
+
+.top_menu_section ul li a{
+    font-size: 4vw;
+}
+
+.map_menu_section{
+    width: 100%;
+    background-color: rgb(250, 251, 255);
+}
+
+.charger_list li{
+    width: 90%;
+    padding: 3vw;
+    background-color: white;
+    margin: 0 auto 1.2vw auto;
+    border: solid #ccc 1px;
+
+
+}
+
+.charger_list{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.charger_list .charger_address{
+    color: #818181;
+    padding: 2vw 0;
+}
+
+.charger_address i{
+    padding-left: 2vw;
+    color: #818181;
+}
+
+.charger_list .charger_list_info{
+    display: flex;
+    font-size: 3vw;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 2vw;
+    border-bottom: #eee 1px solid;
+}
+
+.charger_list_detail{
+    padding-top: 2vw;
+    font-size: 3.2vw;
+    display: none;
+}
+
+.charger_list_detail span{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+}
+
+.charger_list_detail span p:last-child{
+    color: #2d31f0;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.charger_status{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charger_list_page{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5vw;
+}
+
+.charger_list_page a{
+    padding-bottom: 2vw;
+    font-size: 5vw;
+}
+
+.charger_list_filter{
+    width: 95%;
+    margin: 3vw auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charger_list_filter select{
+    width: 40vw;
+    padding: 1vw 0;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 3vw;
+    outline: none;
+    border-radius: 1vw;
+}
+
+.charger_list_filter select option{
+
+}
