@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test.com.estation.user">
+
+    <insert id="USER_REGISTER">
+        INSERT INTO ACCOUNT (USER_NUM,USER_ID,USER_PW,EMAIL,BIRTHDATE,CREATED_AT,TEL)
+        VALUES (
+                SEQ_ACCOUNT.NEXTVAL,
+                #{user_id},
+                #{user_pw},
+                #{email},
+                #{birthdate},
+                sysdate,
+                #{tel}
+               )
+    </insert>
+
+    <select id="USER_LOGIN" resultType="test.com.estation.user.model.UserVO">
+        SELECT * FROM ACCOUNT WHERE USER_ID = #{user_id} AND USER_PW = #{user_pw}
+    </select>
+
+
+
+</mapper>

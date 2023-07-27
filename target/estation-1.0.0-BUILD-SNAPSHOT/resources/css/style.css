@@ -8,6 +8,10 @@
     -ms-overflow-style: none;
 }
 
+body{
+    padding-bottom: 40vw;
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -387,4 +391,156 @@ nav a{
     border: #ccc solid 1px;
     border-radius: 1vw;
     font-size: 3vw;
+}
+
+/* 회원가입 */
+
+.register_section{
+    width: 80%;
+    margin-top: 10vw;
+}
+
+.register_section h3{
+    font-size: 4vw;
+}
+
+.register_section p{
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+}
+
+.register_section input{
+    font-size: 3vw;
+    text-align: center;
+    height: 4.5vw;
+    width: 100%;
+    padding: 4vw 0;
+    border-radius: 1.5vw;
+    outline: none;
+    border: #ececec 1px solid;
+}
+
+.email_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+
+
+}
+.email_section{
+    width: 100%;
+    height: auto;
+}
+
+#user_email{
+    width: 70%;
+}
+
+.email_section button{
+    background-color: #f0f0f0;
+    padding: 2vw 1.5vw;
+    border: none;
+    border-radius: 1vw;
+    width: 20vw;
+    font-size: 2.5vw;
+
+}
+
+.emailCheck_section{
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+#user_emailCheck{
+    width: 70%;
+}
+
+.emailCheck_section button{
+    background-color: #f0f0f0;
+    padding: 2vw 1.5vw;
+    border: none;
+    width: 20vw;
+    border-radius: 1vw;
+    font-size: 2.5vw;
+
+}
+
+.birth_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.birth_section select{
+    padding: 2vw;
+    width: 24vw;
+    border: #ececec solid 1px;
+    border-radius: 1.5vw;
+}
+
+#register-btn,#login-btn{
+    width: 100%;
+    margin-top: 10vw;
+    padding: 2vw 0;
+    border: none;
+    border-radius: 1.5vw;
+    background-color: #f0f0f0;
+    font-size: 3vw;
+
+}
+
+/* 로그인 */
+
+.login_section{
+    width: 90%;
+    margin-top: 10vw;
+}
+
+.login_section h3{
+    font-size: 4vw;
+    margin-bottom: 15vw;
+}
+
+.login_section p{
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+}
+
+.login_section input{
+    font-size: 3vw;
+    text-align: center;
+    height: 4.5vw;
+    width: 100%;
+    padding: 4vw 0;
+    border-radius: 1.5vw;
+    outline: none;
+    border: #ececec 1px solid;
+}
+
+.login_function{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.login_function span a, .login_function a{
+    font-size: 3vw;
+    color: #818181;
+}
+
+.login_function span a{
+    padding: 0 0.5vw;
+}
+
+.SNS_login{
+    width: 90%;
+    text-align: center;
+    border-top: #ececec solid 1px;
+    margin-top: 10vw;
+    padding: 5vw 0;
 }
