@@ -28,14 +28,14 @@ import java.util.List;
 @Slf4j
 public class BoardController {
 
-	
+
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/E_selectAll.do", method = RequestMethod.GET)
 	public String E_selectAll() {
 		log.info("E_selectAll.do....");
-		
+
 		return "board/E_selectAll";
 	}
 
@@ -117,5 +117,5 @@ public class BoardController {
 
 
 }
-	
+
 
